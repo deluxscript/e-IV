@@ -1,0 +1,32 @@
+.home {
+    display: flex;
+    height: calc(100vh - 58px);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.actionText {
+    font-size: 42px;
+    line-height: 1.5;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.actions {
+    display: flex;
+    margin-top: 20px;
+}
+
+.getStarted {
+    background-color: #0b2239;
+    color: #F3F1F1;
+    padding: 20px 30px;
+}
+
+.how {
+    padding: 20px 30px;
+    color: #0b2239;
+    background-color: #F3F1F1;
+}
