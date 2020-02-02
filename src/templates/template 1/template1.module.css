@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Palanquin&display=swap');
+
+.template1 {
+    height: 94vh;
+    border: 20px solid pink;
+    border-image-source: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/hearts-border-image.png);
+    border-image-slice: 20 22;
+    border-image-repeat: round;
+}
+
+@page {
+    size: A5;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1, .section2, .section3 {
+    text-align: center;
+}
+
+.section1 p, .section3 p {
+    font-family: 'Palanquin', sans-serif;
+    text-transform: uppercase;
+}
+
+.name {
+    font-family: 'Parisienne', cursive;
+    font-size: 32px;
+    color: pink;
+    font-weight: bold;
+}

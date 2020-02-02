@@ -7,6 +7,7 @@ import {
 import Aux from '../../hoc/Aux/Aux.component';
 import Home from '../../pages/home/home.component';
 import NavItems from '../../components/navitems/navitems.component';
+import Template1 from '../../templates/template 1/template1.component';
 
 class AppHolder extends Component {
 
@@ -17,17 +18,20 @@ class AppHolder extends Component {
                 <Aux>
                     <div>
                         <div className="App-header">
-                            <div className="bg"></div>
-                            <div className="sect">
-                                <NavItems />
                                 <div>
                                     <Switch>
+                                        <Route path="/template1">
+                                            <Template1 />
+                                        </Route>
                                         <Route path="/">
-                                            <Home />
+                                            <div className="bg"></div>
+                                            <div className="sect">
+                                                <NavItems />
+                                                <Home />
+                                            </div>
                                         </Route>
                                     </Switch>
                                 </div>
-                            </div>
                         </div>
                     </div>
                 </Aux>
