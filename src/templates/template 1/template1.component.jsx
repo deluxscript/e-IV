@@ -6,24 +6,23 @@ const Template1 = (props) => (
     <div className={classes.template1}>
         <div className={classes.content}>
             <div className={classes.section1}>
-                <p>Julia & Stephen Jepherson</p>
+                <p>{props.brideFamilyName}</p>
                 <p>And</p>
-                <p>Iya & Baba Ologi</p>
+                <p>{props.groomFamilyName}</p>
                 <p>Invite you to share in the joy of the marriage of their children</p>
             </div>
             <div className={classes.section2}>
-                <p className={classes.name}>Erin Jepherson</p>
+                <p className={classes.name}>{props.brideName}</p>
                 <p>And</p>
-                <p className={classes.name}>Olage Ologi</p>
+                <p className={classes.name}>{props.groomName}</p>
             </div>
             <div className={classes.section3}>
-                <p className={classes.date}>Saturday, June 8th, 2020</p>
-                <p className={classes.time}>At 7'0 clock in the evening</p>
+                <p className={classes.date}>{props.date}</p>
+                <p className={classes.time}>{props.time}</p>
                 <div className={classes.location}>
-                    <p>Signature Hotel</p>
-                    <p>Silicon Vally, CA 52341</p>
+                    <p>{props.location}</p>
                 </div>
-                <p className={classes.moreInfo}>Reception to follow after</p>
+                <p className={classes.moreInfo}>{props.description}</p>
             </div>
         </div>
     </div>

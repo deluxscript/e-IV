@@ -1,0 +1,15 @@
+.idcreator {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.builder, .preview {
+    width: 100%;
+    margin: 10px 20px;
+}

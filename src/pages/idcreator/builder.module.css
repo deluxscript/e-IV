@@ -1,0 +1,61 @@
+h2, p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.temImg {
+    margin-right:30px;
+}
+
+.temImg img{
+    width:32px;
+    height:32px;
+}
+
+.temImg input{
+    display:none
+}
+
+.temImg img{
+    cursor:pointer;
+    border:1px solid transparent;
+    background-color: #D8DCED;
+    padding: 15px;
+    border-radius:5px;
+}
+
+.temImg input:checked + img{
+    border-color: #0b2239;
+    border-radius:5px;
+    background-color: #ffffff;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.row .formfield {
+    flex: 0 50%;
+    box-sizing:border-box
+  }
+
+.formfield p {
+    margin: 0;
+}
+
+.formfield input, textarea {
+    height: 20px;
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid #0b2239;
+    background-color: inherit;
+}
+
+.formfield input:focus {
+    outline: none;
+}
+
+.formfield {
+    margin-bottom: 40px;
+}
