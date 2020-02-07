@@ -1,3 +1,8 @@
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .home {
     display: flex;
     height: calc(100vh - 58px);
@@ -23,6 +28,7 @@ p {
     background-color: #0b2239;
     color: #F3F1F1;
     padding: 20px 30px;
+    cursor: pointer;
 }
 
 .how {

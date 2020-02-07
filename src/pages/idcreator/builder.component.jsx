@@ -57,6 +57,7 @@ class Builder extends React.Component {
                     </div>
                 </div>
                 <input type="submit" value="Submit" />
+                <a href="/">Back to home</a>
             </form>
         </div>
       );

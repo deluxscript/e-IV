@@ -13,6 +13,13 @@ const IdCreator = (props) => (
                 <h2>Preview</h2>
                 <Template1
                     brideFamilyName = {props.bFn}
+                    groomFamilyName = {props.gFn}
+                    brideName = {props.bN}
+                    groomName = {props.gN}
+                    date = {props.date}
+                    time = {props.time}
+                    location = {props.loc}
+                    description = {props.desc}
                 />
             </div>
         </div>
