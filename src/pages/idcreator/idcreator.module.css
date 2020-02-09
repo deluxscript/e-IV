@@ -13,3 +13,30 @@
     width: 100%;
     margin: 10px 20px;
 }
+
+.print {
+    background-color: #0b2239;
+    color: #F3F1F1;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.print:focus {
+    outline: none;
+}
+
+.back {
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+.print:disabled,
+.print[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}

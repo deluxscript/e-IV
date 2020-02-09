@@ -21,7 +21,8 @@ class AppHolder extends Component {
         date: '',
         time: '',
         location: '',
-        desc: ''
+        desc: '',
+        disableBtn: true
     }
 
     handleChange = (event) => {
@@ -29,6 +30,19 @@ class AppHolder extends Component {
         const name = event.target.name;
 
         return this.setState({[name]: val});
+    }
+
+    disableAction = () => {
+        const brideName = this.state.brideName;
+        const brideFamName = this.state.brideFamName;
+        const groomFamName = this.state.grmFamName;
+        const groomName = this.state.groomName;
+        const date = this.state.date;
+        const time = this.state.time;
+        const location = this.state.location;
+        if(!!brideName && !!groomName && !!brideFamName && !!groomFamName && !!date && !!time && !!location) {
+            return this.setState({disableBtn: !this.state.disableBtn})
+        }
     }
 
     
@@ -52,6 +66,8 @@ class AppHolder extends Component {
                                                 gN = {data.groomName}
                                                 loc = {data.location}
                                                 time = {data.time}
+                                                dis = {this.disableAction}
+                                                btnAction = {data.disableBtn}
                                             />
                                         </Route>
                                         <Route path="/">

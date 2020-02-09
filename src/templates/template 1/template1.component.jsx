@@ -1,31 +1,43 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import classes from './template1.module.css';
+import ring from "./../../assets/img/rings.png";
 
-const Template1 = (props) => (
-    <div className={classes.template1}>
-        <div className={classes.content}>
-            <div className={classes.section1}>
-                <p>{props.brideFamilyName}</p>
-                <p>And</p>
-                <p>{props.groomFamilyName}</p>
-                <p>Invite you to share in the joy of the marriage of their children</p>
-            </div>
-            <div className={classes.section2}>
-                <p className={classes.name}>{props.brideName}</p>
-                <p>And</p>
-                <p className={classes.name}>{props.groomName}</p>
-            </div>
-            <div className={classes.section3}>
-                <p className={classes.date}>{props.date}</p>
-                <p className={classes.time}>{props.time}</p>
-                <div className={classes.location}>
-                    <p>{props.location}</p>
+class Template1 extends Component {
+
+    render() {
+        return(
+            <div className={classes.template1}>
+                <div className={classes.withBg}>
+                    <div className={classes.mainContent}>
+                        <div className={classes.content}>
+                            <img src={ring} alt="freepick" className={classes.topImg} />
+                            <div className={classes.section1}>
+                                <p className={classes.familyname}>{this.props.brideFamilyName}</p>
+                                <p>and</p>
+                                <p className={classes.familyname}>{this.props.groomFamilyName}</p>
+                                <p className={classes.inviteText}>Invite you to share in the joy of the marriage of their children</p>
+                            </div>
+                            <div className={classes.section2}>
+                                <p className={classes.name}>{this.props.brideName}</p>
+                                <p className={classes.cojoin}><span>and</span></p>
+                                <p className={classes.name}>{this.props.groomName}</p>
+                            </div>
+                            <div className={classes.section3}>
+                                <p className={classes.date}>{this.props.date}</p>
+                                <p className={classes.time}>{this.props.time}</p>
+                                <div className={classes.location}>
+                                    <p>{this.props.location}</p>
+                                </div>
+                                <p className={classes.moreInfo}>{this.props.description}</p>
+                            </div>
+                            <img src={ring} alt="freepick" className={classes.bottomImg} />
+                        </div>
+                    </div>
                 </div>
-                <p className={classes.moreInfo}>{props.description}</p>
             </div>
-        </div>
-    </div>
-);
+        )
+    }
+};
 
 export default Template1;

@@ -10,7 +10,7 @@ import headerImage from "./../../assets/img/wedding-planning.png";
 const Home = (props) => (
     <div className={classes.home}>
         <div>
-            <h2 className={classes.actionText}>Perfect your wedding <br/>planning process</h2>
+            <h2 className={classes.actionText}>Create your Wedding IV<br/>at the comfort of your home</h2>
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
             <div className={classes.actions}>
                 <div className={classes.getStarted}><Link to = "/idcreator">Get Started</Link></div>

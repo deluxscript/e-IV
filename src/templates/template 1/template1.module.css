@@ -2,10 +2,25 @@
 @import url('https://fonts.googleapis.com/css?family=Palanquin&display=swap');
 
 .template1 {
-    border: 20px solid pink;
-    border-image-source: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/hearts-border-image.png);
-    border-image-slice: 20 22;
-    border-image-repeat: round;
+    background-image: url(./branch.svg);
+    padding: 1px;
+    background-size: 60px;
+    background-repeat: repeat;
+    height: 85%;
+}
+
+.withBg {
+    background-image: url(./pattern.jpg);
+    margin: 20px;
+    overflow: auto;
+    background-size: contain;
+    border-radius: 30px;
+}
+
+.mainContent {
+    background-color: #ffffff;
+    margin: 30px;
+    border-radius: 30px;
 }
 
 @page {
@@ -17,21 +32,72 @@
     flex-direction: column;
     height: 100%;
     align-items: center;
-    justify-content: center;
+    padding: 8px 20px;
 }
 
 .section1, .section2, .section3 {
     text-align: center;
+    margin: 10px 0;
+}
+
+.section2 {
+    border: 2px solid #5E9E1C;
+    padding: 10px 0;
+    overflow: auto;
+}
+
+p {
+    margin: 0;
+}
+
+.cojoin {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #5E9E1C;
+    line-height: 0.1em;
+    margin: 10px 0;
+}
+
+.cojoin span {
+    padding: 0 10px;
+    background: #fff;
 }
 
 .section1 p, .section3 p {
     font-family: 'Palanquin', sans-serif;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    margin: 0;
 }
 
 .name {
     font-family: 'Parisienne', cursive;
-    font-size: 32px;
-    color: pink;
+    font-size: 28px;
+    color: #504e4b;
+    margin: 0;
     font-weight: bold;
+    padding: 5px 15px;
+}
+
+.familyname {
+    font-weight: 600;
+}
+
+.inviteText {
+    font-size: 14px;
+    margin: 15px 0px !important;
+}
+
+.moreInfo {
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 10px !important;
+    white-space: pre-line;
+}
+
+.topImg {
+    align-self: flex-start;
+}
+
+.bottomImg {
+    align-self: flex-end;
 }

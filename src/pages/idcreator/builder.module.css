@@ -52,10 +52,15 @@ h2, p {
     background-color: inherit;
 }
 
-.formfield input:focus {
+.formfield input:focus, textarea:focus {
     outline: none;
 }
 
+
 .formfield {
     margin-bottom: 40px;
+}
+
+textarea {
+    height: 100px;
 }
