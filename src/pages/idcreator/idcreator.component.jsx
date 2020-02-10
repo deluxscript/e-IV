@@ -16,7 +16,7 @@ const IdCreator = (props) => {
                 <div className={classes.builder}>
                     <Builder handler = {props.act} action = {props.dis}/>
                     <ReactToPrint
-                        trigger={() => <button className={classes.print} disabled ={props.btnAction}>Print IV now</button>}
+                        trigger={() => <button className={classes.print} disabled ={props.btnAction}>Save as PDF</button>}
                         content={() => componentRef.current}
                     />
                     <Link to="/e-iv" className={classes.back}>Back to home</Link>
