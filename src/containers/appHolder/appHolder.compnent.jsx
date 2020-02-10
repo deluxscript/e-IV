@@ -70,7 +70,7 @@ class AppHolder extends Component {
                                                 btnAction = {data.disableBtn}
                                             />
                                         </Route>
-                                        <Route path="/e-iv/">
+                                        <Route path="/e-iv">
                                             <div className="bg"></div>
                                             <div className="sect">
                                                 <NavItems />

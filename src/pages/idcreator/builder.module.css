@@ -7,8 +7,8 @@ h2, p {
 }
 
 .temImg img{
-    width:32px;
-    height:32px;
+    width:50px;
+    height:50px;
 }
 
 .temImg input{
@@ -19,7 +19,7 @@ h2, p {
     cursor:pointer;
     border:1px solid transparent;
     background-color: #D8DCED;
-    padding: 15px;
+    padding: 5px;
     border-radius:5px;
 }
 
