@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/e-iv/static/css/main.359ecea9.chunk.css",
+    "main.css": "/e-iv/static/css/main.6cb72d5a.chunk.css",
     "main.js": "/e-iv/static/js/main.8efe8942.chunk.js",
     "main.js.map": "/e-iv/static/js/main.8efe8942.chunk.js.map",
     "runtime-main.js": "/e-iv/static/js/runtime-main.5b900dc3.js",
@@ -8,9 +8,9 @@
     "static/js/2.735bfc7a.chunk.js": "/e-iv/static/js/2.735bfc7a.chunk.js",
     "static/js/2.735bfc7a.chunk.js.map": "/e-iv/static/js/2.735bfc7a.chunk.js.map",
     "index.html": "/e-iv/index.html",
-    "precache-manifest.3900f67d6ff1abcb81ae65369e689eca.js": "/e-iv/precache-manifest.3900f67d6ff1abcb81ae65369e689eca.js",
+    "precache-manifest.9a366b3065ab8145efa22120bf0b9da1.js": "/e-iv/precache-manifest.9a366b3065ab8145efa22120bf0b9da1.js",
     "service-worker.js": "/e-iv/service-worker.js",
-    "static/css/main.359ecea9.chunk.css.map": "/e-iv/static/css/main.359ecea9.chunk.css.map",
+    "static/css/main.6cb72d5a.chunk.css.map": "/e-iv/static/css/main.6cb72d5a.chunk.css.map",
     "static/js/2.735bfc7a.chunk.js.LICENSE.txt": "/e-iv/static/js/2.735bfc7a.chunk.js.LICENSE.txt",
     "static/media/template1.module.css": "/e-iv/static/media/pattern.1fe9a143.jpg",
     "static/media/wedding-planning.png": "/e-iv/static/media/wedding-planning.71b02ab5.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.5b900dc3.js",
     "static/js/2.735bfc7a.chunk.js",
-    "static/css/main.359ecea9.chunk.css",
+    "static/css/main.6cb72d5a.chunk.css",
     "static/js/main.8efe8942.chunk.js"
   ]
 }
