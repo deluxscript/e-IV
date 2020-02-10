@@ -43,7 +43,7 @@ p {
         flex-wrap: wrap;
         flex-direction: column-reverse;
         padding: 20px;
-        height: calc(100vh - 160px);
+        height: calc(100vh - 170px);
     }
 
     img {
