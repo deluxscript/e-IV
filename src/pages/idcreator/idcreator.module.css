@@ -40,3 +40,16 @@
   color: #666666;
   cursor: not-allowed;
 }
+
+@media screen and (max-width: 750px) {
+    .idcreator {
+        flex-direction: column;
+        min-height: 100%;
+        height: initial;
+    }
+
+    .h100 {
+        overflow: auto;
+        padding: 15px;
+    }
+}

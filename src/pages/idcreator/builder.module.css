@@ -64,3 +64,14 @@ h2, p {
 textarea {
     height: 100px;
 }
+
+@media screen and (max-width: 750px) {
+    .row .formfield {
+        flex: 0 100%;
+        box-sizing:border-box
+    }
+
+    .formfield input, textarea {
+        width: 100%;
+    }
+}

@@ -36,3 +36,25 @@ p {
     color: #0b2239;
     background-color: #F3F1F1;
 }
+
+/* Responsive Design */
+@media screen and (max-width: 750px) {
+    .home {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        padding: 20px;
+        height: calc(100vh - 160px);
+    }
+
+    img {
+        width: 100px;
+    }
+
+    .actionText {
+        font-size: 20px;
+    }
+
+    .getStarted, .how {
+        padding: 10px;
+    }
+}

@@ -1,11 +1,17 @@
-body,html {
+* { box-sizing: border-box; }
+html {
   height: 100%;
+}
+body {
+  margin: 0;
+  overflow: auto;
+  min-height: 100%;
 }
 .App {
   position: relative;
   background-color: #F3F1F1;
   color: #0b2239;
-  height: 100vh;
+  height: 100%;
 }
 
 .App-header {
@@ -31,6 +37,5 @@ body,html {
 
 .sect {
   position: relative;
-  height: 100vh;
 }
 
