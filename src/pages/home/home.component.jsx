@@ -13,7 +13,7 @@ const Home = (props) => (
             <h2 className={classes.actionText}>Create your Wedding IV<br/>at the comfort of your home</h2>
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
             <div className={classes.actions}>
-                <div className={classes.getStarted}><Link to = "/idcreator">Get Started</Link></div>
+                <div className={classes.getStarted}><Link to = "/e-iv/idcreator">Get Started</Link></div>
                 <div className={classes.how}>How it works</div>
             </div>
         </div>

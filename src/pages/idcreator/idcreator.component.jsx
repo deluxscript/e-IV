@@ -19,7 +19,7 @@ const IdCreator = (props) => {
                         trigger={() => <button className={classes.print} disabled ={props.btnAction}>Print IV now</button>}
                         content={() => componentRef.current}
                     />
-                    <Link to="/" className={classes.back}>Back to home</Link>
+                    <Link to="/e-iv" className={classes.back}>Back to home</Link>
                 </div>
                 <div className={classes.preview}>
                     <h2>Preview</h2>

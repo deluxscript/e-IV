@@ -55,7 +55,7 @@ class AppHolder extends Component {
                         <div className="App-header">
                                 <div className={classes.h100}>
                                     <Switch>
-                                        <Route path="/idcreator">
+                                        <Route path="/e-iv/idcreator">
                                             <IdCreator
                                                 act = {this.handleChange}
                                                 bFn = {data.brideFamName}
@@ -70,7 +70,7 @@ class AppHolder extends Component {
                                                 btnAction = {data.disableBtn}
                                             />
                                         </Route>
-                                        <Route path="/">
+                                        <Route path="/e-iv/">
                                             <div className="bg"></div>
                                             <div className="sect">
                                                 <NavItems />

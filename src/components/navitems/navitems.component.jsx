@@ -5,9 +5,9 @@ import NavItem from "./navitem/navitem.component"
 
 const NavItems = (props) => (
     <ul className={classes.NavItems}>
-        <NavItem link="/" active>Home</NavItem>
+        <NavItem link="/e-iv" active>Home</NavItem>
         <NavItem link="#">How it Works</NavItem>
-        <NavItem link="/idcreator">Get Started</NavItem>
+        <NavItem link="/e-iv/idcreator">Get Started</NavItem>
     </ul>
 );
 
